@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('weather_report.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(28, 236, 5, 0.995);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(246, 206, 3);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #f40388;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ee00ff;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.weather-image {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.weather-info div {
+    margin-bottom: 10px;
+}
